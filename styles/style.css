@@ -12,6 +12,26 @@ body {
 
 #nav-div {
   display: flex;
+  flex-direction: row;
   height: 60px;
   flex-shrink: 0;
+}
+
+#logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+#search-div {
+  display: flex;
+  justify-content: center;
+}
+
+#search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+[type=search] {
+  width: 100%;
 }
