@@ -34,11 +34,13 @@ form {
 
 #search-div {
   display: flex;
+  padding-top: 30px;
   justify-content: center;
   width: 100%;
 }
 
 #search-buttons {
   display: flex;
+  padding-top: 30px;
   justify-content: center;
 }
