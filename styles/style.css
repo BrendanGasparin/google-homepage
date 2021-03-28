@@ -10,7 +10,10 @@ form {
 }
 
 [type=search] {
+  height: 40px;
   width: 100%;
+  border-radius: 2em;
+  border: 1px solid #ddd;
 }
 
 #page-div {
