@@ -1,2 +1,2 @@
 # google-homepage
-W website styled similarly to the Google homepage, done for The Odin Project.
+Website styled similarly to the Google homepage, done for The Odin Project.
