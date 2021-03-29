@@ -17,6 +17,12 @@ form {
   border: 1px solid #ddd;
 }
 
+.app-icon {
+  height: 24px;
+  width: 24px;
+  opacity: 0.6;
+}
+
 .black-link {
   color: #222;
   text-decoration: none;
@@ -25,9 +31,14 @@ form {
 .signin-button {
   background-color: #1a73e8;
   color: white;
+  font-size: 15px;
   border: 0;
-  padding: 9px 25px;
+  padding: 7px 24px;
   border-radius: 5px;
+}
+
+.small-text {
+  font-size: 13px;
 }
 
 #page-div {
@@ -43,7 +54,6 @@ form {
   height: 60px;
   flex-shrink: 0;
   align-items: center;
-  border-bottom: 1px solid black;
 }
 
 #logo-div {
@@ -78,6 +88,19 @@ form {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+}
+
+#images-div {
+  padding-right: 27px;
+}
+
+#gmail-div {
+  padding-right: 15px;
+}
+
+#apps-div {
+  padding-top: 2px;
+  padding-right: 20px;
 }
 
 #signin-div {
