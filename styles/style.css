@@ -29,6 +29,8 @@ form {
   flex-direction: row;
   height: 60px;
   flex-shrink: 0;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 #logo-div {
@@ -48,4 +50,17 @@ form {
   display: flex;
   padding-top: 30px;
   justify-content: center;
+}
+
+#about-div {
+  padding-left: 26px;
+}
+
+#store-div {
+  padding-left: 20px;
+}
+
+.black-link {
+  color: #222;
+  text-decoration: none;
 }
