@@ -59,7 +59,7 @@ form {
   display: flex;
   justify-content: center;
   flex-basis: auto;
-  flex-grow: 8;
+  flex-grow: 12;
   align-items: flex-end;
 }
 
