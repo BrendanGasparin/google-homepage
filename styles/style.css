@@ -17,6 +17,19 @@ form {
   border: 1px solid #ddd;
 }
 
+.black-link {
+  color: #222;
+  text-decoration: none;
+}
+
+.signin-button {
+  background-color: #1a73e8;
+  color: white;
+  border: 0;
+  padding: 9px 25px;
+  border-radius: 5px;
+}
+
 #page-div {
   display: flex;
   flex-direction: column;
@@ -60,7 +73,13 @@ form {
   padding-left: 20px;
 }
 
-.black-link {
-  color: #222;
-  text-decoration: none;
+#navbar-right-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+#signin-div {
+  padding-right: 18px;
 }
