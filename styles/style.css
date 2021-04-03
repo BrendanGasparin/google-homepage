@@ -17,6 +17,10 @@ form {
   border: 1px solid #ddd;
 }
 
+input:focus {
+  outline: none;
+}
+
 .app-icon {
   height: 24px;
   width: 24px;
