@@ -41,6 +41,13 @@ input:focus {
   color: #70757a;
 }
 
+.search-button {
+  border: 0;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
 .signin-button {
   background-color: #1a73e8;
   color: white;
@@ -88,6 +95,10 @@ input:focus {
   display: flex;
   padding-top: 30px;
   justify-content: center;
+}
+
+#lucky-button {
+  margin-left: 12px;
 }
 
 #blank-div {
