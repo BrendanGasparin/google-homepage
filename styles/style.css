@@ -11,8 +11,12 @@ form {
 }
 
 [type=search] {
-  padding: 15px;
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  padding-left: 50px;
+  width: 42%;
+  background-color: white;
   border-radius: 2em;
   border: 1px solid #ddd;
 }
@@ -87,7 +91,7 @@ input:focus {
   display: flex;
   padding-top: 25px;
   justify-content: center;
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
 }
 
