@@ -36,6 +36,11 @@ input:focus {
   color: #70757a;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: #70757a;
+}
+
 .signin-button {
   background-color: #1a73e8;
   color: white;
