@@ -15,7 +15,7 @@ form {
   margin: 0 auto;
   padding: 13px;
   padding-left: 50px;
-  width: 42%;
+  width: 43%;
   background-color: white;
   border-radius: 2em;
   border: 1px solid #ddd;
@@ -50,6 +50,12 @@ input:focus {
   background-color: #f8f9fa;
   font-size: 14px;
   padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  border: 1px solid #ddd;
+  padding: 9px 14px;
 }
 
 .signin-button {
