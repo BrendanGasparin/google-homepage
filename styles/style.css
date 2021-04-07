@@ -133,6 +133,7 @@ input:focus {
   display: flex;
   flex-basis: 36vh;
   flex-grow: 1;
+  flex-shrink: 1;
 }
 
 #footer-div {
@@ -234,7 +235,62 @@ input:focus {
 }
 
 @media (max-width: 595px) {
+  [type="search"] {
+    width: 90%;
+  }
+
+  .spyglass-icon {
+    left: 7.5%;
+  }
+
+  .mic-icon {
+    right: 7.5%;
+  }
+
+  #footer-div {
+    height: 141px;
+  }
+
   #footer-links {
     flex-direction: column;
+    height: 94px;
+  }
+
+  #location-div {
+    height: 47px;
+  }
+
+  #footer-links1 {
+    height: 47px;
+  }
+
+  #footer-links2 {
+    height: 47px;
+  }
+
+#footer-advertising {
+  padding-left: 0;
+}
+
+#footer-business {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#footer-search {
+  padding-left: 0;
+}
+
+#footer-privacy {
+  padding-right: 0;
+}
+
+#footer-terms {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#footer-settings {
+  padding-right: 0;
 }
 }
