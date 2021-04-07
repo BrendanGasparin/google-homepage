@@ -186,7 +186,6 @@ input:focus {
 
 #footer-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   height: 47px;
@@ -225,4 +224,17 @@ input:focus {
 
 #footer-settings {
   padding-right: 35px;
+}
+
+@media (max-width: 1200px) {
+  #footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 595px) {
+  #footer-links {
+    flex-direction: column;
+}
 }
