@@ -1,2 +1,2 @@
 # google-homepage
-Website styled similarly to the Google homepage, done for The Odin Project.
+Google homepage mockup done for The Odin Project curriculum.
