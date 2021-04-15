@@ -49,7 +49,7 @@ input:focus {
   border: 0;
   background-color: #f8f9fa;
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 9px 17px;
   border-radius: 5px;
 }
 
@@ -63,7 +63,7 @@ input:focus {
   color: white;
   font-size: 15px;
   border: 0;
-  padding: 7px 24px;
+  padding: 10px 26px;
   border-radius: 5px;
 }
 
@@ -140,7 +140,7 @@ input:focus {
 
 #blank-div {
   display: flex;
-  flex-basis: 36vh;
+  flex-basis: 34.6vh;
   flex-grow: 1;
   flex-shrink: 1;
 }
@@ -238,6 +238,10 @@ input:focus {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  #blank-div {
+    flex-basis: 29.4vh;
+  }
 
   #searchbar-div {
     margin: 0 1.5em;
