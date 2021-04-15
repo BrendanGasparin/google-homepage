@@ -1,2 +1,2 @@
 # google-homepage
-Google homepage mockup done for The Odin Project curriculum.
+Google homepage mockup for The Odin Project curriculum.
