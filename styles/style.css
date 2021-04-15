@@ -247,7 +247,7 @@ input:focus {
     margin: 0 1.5em;
   }
 
-  /* footer reformatting */
+  /* footer layout on small screens */
   #footer-div {
     height: 141px;
   }
